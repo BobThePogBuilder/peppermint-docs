@@ -4,8 +4,6 @@ import starlight from '@astrojs/starlight';
 
 import cloudflare from '@astrojs/cloudflare';
 
-import sitemap from '@astrojs/sitemap';
-
 // https://astro.build/config
 export default defineConfig({
   integrations: [starlight({
@@ -34,7 +32,7 @@ export default defineConfig({
               autogenerate: { directory: 'reference' },
           },*/
       ],
-  }), sitemap()],
+  }),],
 
   output: 'server',
   adapter: cloudflare(),
