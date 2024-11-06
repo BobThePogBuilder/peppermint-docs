@@ -17,6 +17,7 @@ export default defineConfig({
                   // Each item here is one entry in the navigation menu.
                   { label: 'Welcome', slug: 'guides/welcome' },
                   { label: 'Install with Docker(Official)', slug: 'guides/docker' },
+                  { label: 'Troubleshoot Check List', slug: 'guides/checklist' },
                   { label: 'Easy-Installer (Spearmint)', slug: 'guides/easy' },
                   { label: 'Reverse Proxy', slug: 'guides/proxy' },
                   { label: 'OpenID Connect (OIDC)', slug: 'guides/oidc' },
